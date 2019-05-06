@@ -3,6 +3,7 @@
 #include <IRremote.h>
 
 int IRPIN = 4;
+int addr = 0;
 String LastVal = "No Last Val";
 
 IRrecv Receiver(IRPIN);
